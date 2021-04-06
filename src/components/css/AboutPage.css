@@ -1,0 +1,6 @@
+.about-us-image {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  animation: tutsFade 1.3s ease-in 0.2s forwards;
+}

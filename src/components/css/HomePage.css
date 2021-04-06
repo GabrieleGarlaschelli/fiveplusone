@@ -1,0 +1,45 @@
+.wrap-container {
+  height: fit-content;
+  width: fit-content;
+}
+
+.logo-image {
+  max-width: 100vw;
+  max-height: 100vh;
+  opacity: 0;
+}
+
+.digital-store-logo {
+  width: 70px
+}
+
+.adapting-half-screen-width {
+  width: 50%;
+  height: 100%;
+}
+
+@media (max-width:640px)  {
+  .adapting-half-screen-width {
+    width: 100%;
+    height: fit-content;
+  }
+}
+
+.loaded.logo-image {
+  animation: tutsFade 1.3s ease-in 0.2s forwards;
+}
+
+@keyframes scaleIn {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes tutsFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
